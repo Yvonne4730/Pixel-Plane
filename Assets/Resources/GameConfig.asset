@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb64a30ce3e497386489fc4b930b302, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerInitLife: 3
+  playerMaxLife: 5
+  playerMoveSpeed: 10
+  playerShootInterval: 0.25
+  playerInvincibleDuration: 1.5
+  playerBulletSpeed: 15
+  enemyBulletSpeed: 8
+  enemySpawnIntervalStart: 2
+  enemySpawnIntervalMin: 0.8
+  propSpawnInterval: 10
+  shieldDuration: 3
+  propFallSpeed: 3
+  tankScore: 200
+  fighterScore: 100
